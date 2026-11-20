@@ -2,8 +2,8 @@ services:
   app:
     build: ./app
     container_name: buildforge-app
-    ports:
-      - "8085:8085"
+    expose:
+      - "8085"
     environment:
       - PORT=8085
       - ENV=production
