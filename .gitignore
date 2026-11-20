@@ -1,0 +1,20 @@
+target/
+*.class
+*.jar
+*.war
+.m2/
+.idea/
+*.iml
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
