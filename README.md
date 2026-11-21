@@ -1,5 +1,7 @@
 # BuildForge – Enterprise Multi-Stage CI/CD Pipeline & Delivery Platform
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-success?style=for-the-badge&logo=github)](https://divyakumari1107.github.io/BuildForge-Pipeline/)
+[![Vercel Deployment](https://img.shields.io/badge/Deployed-Vercel-black.svg?logo=vercel)](https://buildforge-pipeline.vercel.app/)
 [![CI/CD Pipeline](https://img.shields.io/badge/CI%2FCD-Jenkins%20%7C%20GitHub%20Actions-blue.svg)](Jenkinsfile)
 [![Build Tool](https://img.shields.io/badge/Build-Maven%203.9-orange.svg)](app/pom.xml)
 [![Config Management](https://img.shields.io/badge/IaC-Puppet-yellow.svg)](puppet/manifests/site.pp)
@@ -8,6 +10,19 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 An enterprise-grade, automated CI/CD and Configuration Compliance platform demonstrating multi-stage build automation, security scanning, container packaging, automated deployment verification, and Puppet-enforced node state compliance.
+
+---
+
+## 🌐 Live Production Deployments
+
+This project includes a live interactive CI/CD pipeline visualizer demonstrating multi-stage stage gate executions, SonarQube quality gates, Docker artifact builds, and Puppet compliance drift checks:
+
+| Resource | Live Link | Status |
+| :--- | :--- | :--- |
+| **BuildForge Pipeline Dashboard (GitHub Pages)** | **[https://divyakumari1107.github.io/BuildForge-Pipeline/](https://divyakumari1107.github.io/BuildForge-Pipeline/)** | 🟢 **Live (24/7)** |
+| **BuildForge Live Mirror (Vercel)** | **[https://buildforge-pipeline.vercel.app/](https://buildforge-pipeline.vercel.app/)** | 🟢 **Production Ready** |
+
+---
 
 ---
 
